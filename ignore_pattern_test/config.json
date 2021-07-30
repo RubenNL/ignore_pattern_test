@@ -10,6 +10,7 @@
   "schema": {},
   "snapshot_exclude": [
     "*/a/b/**/f",
-    "*/a/b/g"
+    "*/a/b/g",
+    "*/h/i/*/*/*/m"
   ]
 }
