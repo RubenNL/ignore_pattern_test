@@ -9,12 +9,7 @@
   "options": {},
   "schema": {},
   "snapshot_exclude": [
-    "*/jenkins/war/**",
-    "*/jenkins/plugins-extracted/**",
-    "*/jenkins/plugins/**",
-    "*/jenkins/workspace/**",
-    "*/jenkins/*.cache/**",
-    "*/jenkins/jobs/*/**/builds/**",
-    "*/jenkins/caches/"
+    "*/a/b/**/f",
+    "*/a/b/g"
   ]
 }
