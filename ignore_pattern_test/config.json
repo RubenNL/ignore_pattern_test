@@ -1,0 +1,20 @@
+{
+  "name": "ignore pattern test",
+  "version": "1",
+  "slug": "ignoretest",
+  "description": "test",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "snapshot_exclude": [
+    "*/jenkins/war/**",
+    "*/jenkins/plugins-extracted/**",
+    "*/jenkins/plugins/**",
+    "*/jenkins/workspace/**",
+    "*/jenkins/*.cache/**",
+    "*/jenkins/jobs/*/**/builds/**",
+    "*/jenkins/caches/"
+  ]
+}
